@@ -287,7 +287,7 @@ const RESOURCES = {
     },
     {
       name: "NPTEL (IIT)",
-      channelUrl: "https://www.youtube.com/@nptelhrd",
+      channelUrl: "https://www.youtube.com/@iit",
       description: "Comprehensive VLSI and electronics courses from IIT professors",
       category: "Academic",
       level: "All Levels",
