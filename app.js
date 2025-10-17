@@ -623,15 +623,14 @@ const RESOURCES = {
       ]
     },
 	
-	{
-      name: "pcb-hero",
-      url: "https://www.pcb-hero.org",
+    {
+      name: "PCB Hero",
+      url: "https://www.pcb-hero.com",
       description: "PCB services and parts",
       features: "PCB Boards",
       platforms: "Windows, macOS, Linux",
       cost: "Paid",
-    }
-	tutorials: [
+      tutorials: [
         {
           title: "KiCad Tutorial: Make Your First PCB",
           url: "https://www.build-electronic-circuits.com/kicad-tutorial"
@@ -644,7 +643,8 @@ const RESOURCES = {
           title: "Getting Started in KiCad (Official)",
           url: "https://docs.kicad.org/8.0/en/getting_started_in_kicad"
         }
-      ]	
+      ]
+    }	
   ],
 
   // Learning Paths - Add structured learning sequences here
@@ -944,7 +944,7 @@ function renderPcbDesign() {
         `).join('')}
       </div>
       <a href="${pcb.url}" target="_blank" rel="noopener noreferrer" class="btn btn--primary" style="margin-top: var(--space-12);">
-        Download KiCad
+        Download ${pcb.name}
       </a>
     </div>
   `).join('');
