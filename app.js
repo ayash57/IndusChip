@@ -294,13 +294,31 @@ const RESOURCES = {
       playlists: [
         {
           title: "All NPTEL VLSI Playlists",
-          url: "https://www.youtube.com/@nptelhrd/playlists",
+          url: "https://www.youtube.com/@iit/playlists",
           description: "Browse all NPTEL VLSI and electronics courses",
           videos: "50+ courses",
           level: "All Levels"
         }
       ]
     },
+	
+	{
+      name: "ANALOG LAYOUT DESIGN",
+      channelUrl: "https://www.youtube.com/@analoglayoutdesign2342",
+      description: "Explaining Analog Design with Nuances",
+      category: "Industry",
+      level: "All Levels",
+      playlists: [
+        {
+          title: "All ANALOG LAYOUT DESIGN Content",
+          url: "https://www.youtube.com/@analoglayoutdesign2342/playlists",
+          description: "Career guidance and industry insights",
+          videos: "Multiple series",
+          level: "All Levels"
+        }
+      ]
+    },
+	
     {
       name: "VLSI FOR ALL",
       channelUrl: "https://www.youtube.com/@vlsiforall",
@@ -372,6 +390,23 @@ const RESOURCES = {
       category: "Industry News",
       specialization: "All Topics"
     },
+	
+    {
+      name: "Design Re-Use",
+      url: "https://www.design-reuse.com",
+      description: "Deep insights into semiconductor news, concepts and products",
+      category: "Industry News",
+      specialization: "All Topics"
+    },
+	
+    {
+      name: "ESD Concepts and Solutions",
+      url: "https://www.sofics.com",
+      description: "ESD Basics to Advanced across different foundries",
+      category: "Educational and Applied",
+      specialization: "Backend Design"
+    },
+	
     {
       name: "VLSI Concepts",
       url: "https://www.vlsi-expert.com",
@@ -587,6 +622,16 @@ const RESOURCES = {
         }
       ]
     }
+	
+	{
+      name: "pcb-hero",
+      url: "https://www.pcb-hero.org",
+      description: "PCB services and parts",
+      features: "PCB Boards",
+      platforms: "Windows, macOS, Linux",
+      cost: "Paid",
+    }
+	
   ],
 
   // Learning Paths - Add structured learning sequences here
