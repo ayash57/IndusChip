@@ -621,7 +621,7 @@ const RESOURCES = {
           url: "https://docs.kicad.org/8.0/en/getting_started_in_kicad"
         }
       ]
-    }
+    },
 	
 	{
       name: "pcb-hero",
