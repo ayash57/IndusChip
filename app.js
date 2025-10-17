@@ -631,7 +631,20 @@ const RESOURCES = {
       platforms: "Windows, macOS, Linux",
       cost: "Paid",
     }
-	
+	tutorials: [
+        {
+          title: "KiCad Tutorial: Make Your First PCB",
+          url: "https://www.build-electronic-circuits.com/kicad-tutorial"
+        },
+        {
+          title: "KiCad 7 PCB Layout in 5 Steps",
+          url: "https://www.youtube.com/watch?v=3FGNw28xBr0"
+        },
+        {
+          title: "Getting Started in KiCad (Official)",
+          url: "https://docs.kicad.org/8.0/en/getting_started_in_kicad"
+        }
+      ]	
   ],
 
   // Learning Paths - Add structured learning sequences here
